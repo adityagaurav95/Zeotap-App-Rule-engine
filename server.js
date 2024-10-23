@@ -7,7 +7,7 @@ const ruleRoutes = require('./routes/ruleRoutes');
 
 const dotenv = require('dotenv');
 dotenv.config()
-const PORT =  process.env.PORT || 4000 || 5000;
+const PORT =  process.env.PORT || 4000;
 
 const app = express();
 app.use(cors());
